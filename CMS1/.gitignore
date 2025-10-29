@@ -2,9 +2,10 @@ bin/
 obj/
 appsettings*.json
 *.http
-.vs/
+*.vs/
 *.user
 *suo
 *.cache
-.env
 *.log
+.env
+Logs/
