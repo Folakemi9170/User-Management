@@ -1,0 +1,805 @@
+2025-10-09 10:22:17.895 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 10:22:18.272 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 10:22:18.274 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 10:22:18.575 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 10:22:18.578 +01:00 [INF] Hosting environment: Development
+2025-10-09 10:22:18.579 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 10:44:05.214 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 10:44:05.554 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 10:44:05.556 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 10:44:05.769 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 10:44:05.771 +01:00 [INF] Hosting environment: Development
+2025-10-09 10:44:05.772 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 10:44:12.442 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - null null
+2025-10-09 10:44:12.756 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - 200 null text/html;charset=utf-8 321.078ms
+2025-10-09 10:44:12.773 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - null null
+2025-10-09 10:44:12.781 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.css - null null
+2025-10-09 10:44:12.781 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - null null
+2025-10-09 10:44:12.814 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-09 10:44:12.911 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.js - null null
+2025-10-09 10:44:13.032 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.css - 304 null null 251.0575ms
+2025-10-09 10:44:13.031 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-standalone-preset.js - 304 null null 250.0012ms
+2025-10-09 10:44:13.031 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui.css - 304 null null 257.5861ms
+2025-10-09 10:44:12.847 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - null null
+2025-10-09 10:44:12.988 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - null null
+2025-10-09 10:44:13.058 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.js - 200 null application/javascript;charset=utf-8 170.9212ms
+2025-10-09 10:44:13.067 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 284.7482ms
+2025-10-09 10:44:13.147 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 300.1182ms
+2025-10-09 10:44:13.168 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - 200 null text/javascript; charset=UTF-8 227.6155ms
+2025-10-09 10:44:13.384 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - null null
+2025-10-09 10:44:13.386 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - null null
+2025-10-09 10:44:13.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/favicon-32x32.png - 304 null null 8.2467ms
+2025-10-09 10:44:13.420 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.1498ms
+2025-10-09 10:59:46.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/JobTitle - null null
+2025-10-09 10:59:46.299 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.JobTitleController.GetAllRoles (UserManagement)'
+2025-10-09 10:59:46.329 +01:00 [INF] Route matched with {action = "GetAllRoles", controller = "JobTitle"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[UserManagement.Application.DTO.JobTitleDto.JobTitleResponse]]] GetAllRoles() on controller UserManagement.Presentation.Controllers.JobTitleController (UserManagement).
+2025-10-09 10:59:48.374 +01:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [j].[Id], [j].[CreatedAt], [j].[DepartmentId], [j].[Description], [j].[IsActive], [j].[MaximumSalary], [j].[MinimumSalary], [j].[Name], [j].[RoleId], [j].[UpdatedAt], [d].[Id], [d].[CreatedAt], [d].[DeptName], [d].[UpdatedAt]
+FROM [JobTitles] AS [j]
+INNER JOIN [Departments] AS [d] ON [j].[DepartmentId] = [d].[Id]
+2025-10-09 10:59:48.527 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagement.Application.DTO.JobTitleDto.JobTitleResponse, UserManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-09 10:59:48.555 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.JobTitleController.GetAllRoles (UserManagement) in 2218.2688ms
+2025-10-09 10:59:48.559 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.JobTitleController.GetAllRoles (UserManagement)'
+2025-10-09 10:59:48.567 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/JobTitle - 200 null application/json; charset=utf-8 2392.7655ms
+2025-10-09 11:21:43.164 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 353
+2025-10-09 11:21:43.174 +01:00 [INF] CORS policy execution successful.
+2025-10-09 11:21:43.183 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 11:21:43.193 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 11:21:43.198 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: A suitable constructor for type 'UserManagement.Presentation.Controllers.ProductController' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfoEx[] constructors, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-10-09 11:21:43.228 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 500 null text/plain; charset=utf-8 63.7556ms
+2025-10-09 11:25:10.565 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 11:25:10.951 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 11:25:10.954 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 11:25:11.062 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 11:25:11.064 +01:00 [INF] Hosting environment: Development
+2025-10-09 11:25:11.066 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 11:25:14.894 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 353
+2025-10-09 11:25:14.939 +01:00 [INF] CORS policy execution successful.
+2025-10-09 11:25:15.013 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 11:25:15.038 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 11:25:16.102 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-09 11:25:16.131 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 1083.7961ms
+2025-10-09 11:25:16.134 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 11:25:16.143 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 400 null application/problem+json; charset=utf-8 1254.1606ms
+2025-10-09 11:45:31.013 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 11:45:31.470 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 11:45:31.473 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 11:45:31.751 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 11:45:31.754 +01:00 [INF] Hosting environment: Development
+2025-10-09 11:45:31.756 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 11:59:28.635 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 11:59:29.038 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 11:59:29.042 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 11:59:29.178 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 11:59:29.181 +01:00 [INF] Hosting environment: Development
+2025-10-09 11:59:29.183 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 11:59:39.924 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 353
+2025-10-09 11:59:39.979 +01:00 [INF] CORS policy execution successful.
+2025-10-09 11:59:40.075 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 11:59:40.107 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 11:59:42.017 +01:00 [INF] Executed DbCommand (73ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 11:59:42.111 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__product_ProductStatusId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductStatus] AS [p]
+WHERE [p].[Id] = @__product_ProductStatusId_0
+2025-10-09 11:59:42.154 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__product_ProductTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductType] AS [p]
+        WHERE [p].[Id] = @__product_ProductTypeId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-09 11:59:42.181 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__departmentId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DeptName]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @__departmentId_Value_0
+2025-10-09 11:59:42.224 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Product] AS [p]
+2025-10-09 11:59:42.482 +01:00 [INF] Executed DbCommand (31ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([AssignedToId], [CreatedAt], [CreatedById], [CustomerId], [DepartmentId], [Price], [ProductCategoryId], [ProductCode], [ProductDescription], [ProductName], [ProductStatusId], [ProductTypeId], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2025-10-09 11:59:42.532 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'UserManagement.Infrastructure.UMSDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:224795ae-1e94-47dc-ac30-5900dc06e1a9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:224795ae-1e94-47dc-ac30-5900dc06e1a9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-09 11:59:42.907 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType14`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-09 11:59:42.928 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 2809.8479ms
+2025-10-09 11:59:42.933 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 11:59:42.956 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 500 null application/json; charset=utf-8 3037.3421ms
+2025-10-09 12:00:08.160 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 12:00:08.588 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 12:00:08.590 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 12:00:08.726 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 12:00:08.728 +01:00 [INF] Hosting environment: Development
+2025-10-09 12:00:08.730 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 12:00:09.475 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - null null
+2025-10-09 12:00:09.762 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - 200 null text/html;charset=utf-8 300.0905ms
+2025-10-09 12:00:09.784 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-09 12:00:09.784 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - null null
+2025-10-09 12:00:09.837 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 52.9908ms
+2025-10-09 12:00:09.873 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.3771ms
+2025-10-09 12:00:10.084 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - null null
+2025-10-09 12:00:10.140 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.5291ms
+2025-10-09 12:00:30.846 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 352
+2025-10-09 12:00:30.863 +01:00 [INF] CORS policy execution successful.
+2025-10-09 12:00:30.934 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:00:30.966 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 12:00:32.810 +01:00 [INF] Executed DbCommand (71ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 12:00:32.949 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__product_ProductStatusId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductStatus] AS [p]
+WHERE [p].[Id] = @__product_ProductStatusId_0
+2025-10-09 12:00:32.993 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__product_ProductTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductType] AS [p]
+        WHERE [p].[Id] = @__product_ProductTypeId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-09 12:00:33.015 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__departmentId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DeptName]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @__departmentId_Value_0
+2025-10-09 12:00:33.059 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Product] AS [p]
+2025-10-09 12:00:33.291 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([AssignedToId], [CreatedAt], [CreatedById], [CustomerId], [DepartmentId], [Price], [ProductCategoryId], [ProductCode], [ProductDescription], [ProductName], [ProductStatusId], [ProductTypeId], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2025-10-09 12:00:33.339 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'UserManagement.Infrastructure.UMSDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:7bd6fdd2-33e2-4650-a673-8f9e3b3ea1bb
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:7bd6fdd2-33e2-4650-a673-8f9e3b3ea1bb
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-09 12:00:33.666 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType14`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-09 12:00:33.679 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 2705.4975ms
+2025-10-09 12:00:33.683 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:00:33.695 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 500 null application/json; charset=utf-8 2849.7576ms
+2025-10-09 12:06:17.479 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 12:06:17.853 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 12:06:17.855 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 12:06:17.961 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 12:06:17.964 +01:00 [INF] Hosting environment: Development
+2025-10-09 12:06:17.965 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 12:06:29.126 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 352
+2025-10-09 12:06:29.173 +01:00 [INF] CORS policy execution successful.
+2025-10-09 12:06:29.281 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:06:29.307 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 12:06:31.089 +01:00 [INF] Executed DbCommand (53ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 12:06:31.184 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__product_ProductStatusId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductStatus] AS [p]
+WHERE [p].[Id] = @__product_ProductStatusId_0
+2025-10-09 12:06:31.224 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__product_ProductTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductType] AS [p]
+        WHERE [p].[Id] = @__product_ProductTypeId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-09 12:06:31.247 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__departmentId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DeptName]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @__departmentId_Value_0
+2025-10-09 12:06:31.277 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__prefixPattern_0_startswith='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode]
+FROM [Product] AS [p]
+WHERE [p].[ProductCode] LIKE @__prefixPattern_0_startswith ESCAPE N'\'
+ORDER BY [p].[ProductCode] DESC
+2025-10-09 12:06:31.501 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([AssignedToId], [CreatedAt], [CreatedById], [CustomerId], [DepartmentId], [Price], [ProductCategoryId], [ProductCode], [ProductDescription], [ProductName], [ProductStatusId], [ProductTypeId], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2025-10-09 12:06:31.539 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'UserManagement.Infrastructure.UMSDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d6561d9f-42ca-41df-9779-5c603ba81976
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d6561d9f-42ca-41df-9779-5c603ba81976
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-09 12:06:31.848 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType14`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-09 12:06:31.866 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 2549.3039ms
+2025-10-09 12:06:31.870 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:06:31.888 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 500 null application/json; charset=utf-8 2766.2843ms
+2025-10-09 12:06:41.181 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 352
+2025-10-09 12:06:41.189 +01:00 [INF] CORS policy execution successful.
+2025-10-09 12:06:41.192 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:06:41.194 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 12:06:41.271 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 12:06:41.279 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__product_ProductStatusId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductStatus] AS [p]
+WHERE [p].[Id] = @__product_ProductStatusId_0
+2025-10-09 12:06:41.288 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__product_ProductTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductType] AS [p]
+        WHERE [p].[Id] = @__product_ProductTypeId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-09 12:06:41.294 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__departmentId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DeptName]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @__departmentId_Value_0
+2025-10-09 12:06:41.303 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__prefixPattern_0_startswith='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode]
+FROM [Product] AS [p]
+WHERE [p].[ProductCode] LIKE @__prefixPattern_0_startswith ESCAPE N'\'
+ORDER BY [p].[ProductCode] DESC
+2025-10-09 12:06:41.317 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([AssignedToId], [CreatedAt], [CreatedById], [CustomerId], [DepartmentId], [Price], [ProductCategoryId], [ProductCode], [ProductDescription], [ProductName], [ProductStatusId], [ProductTypeId], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2025-10-09 12:06:41.325 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'UserManagement.Infrastructure.UMSDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d6561d9f-42ca-41df-9779-5c603ba81976
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:d6561d9f-42ca-41df-9779-5c603ba81976
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-09 12:06:41.533 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType14`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-09 12:06:41.537 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 340.2017ms
+2025-10-09 12:06:41.540 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:06:41.542 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 500 null application/json; charset=utf-8 361.3004ms
+2025-10-09 12:07:20.182 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 12:07:20.674 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 12:07:20.676 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 12:07:20.793 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 12:07:20.794 +01:00 [INF] Hosting environment: Development
+2025-10-09 12:07:20.796 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 12:07:53.538 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 12:07:53.842 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 12:07:53.846 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 12:07:54.060 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 12:07:54.062 +01:00 [INF] Hosting environment: Development
+2025-10-09 12:07:54.064 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 12:14:20.670 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 12:14:21.120 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 12:14:21.122 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 12:14:21.241 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 12:14:21.243 +01:00 [INF] Hosting environment: Development
+2025-10-09 12:14:21.245 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 12:14:24.101 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 352
+2025-10-09 12:14:24.152 +01:00 [INF] CORS policy execution successful.
+2025-10-09 12:14:24.233 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:14:24.259 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 12:14:48.870 +01:00 [INF] Executed DbCommand (50ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 12:14:52.834 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__product_ProductStatusId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductStatus] AS [p]
+WHERE [p].[Id] = @__product_ProductStatusId_0
+2025-10-09 12:14:52.872 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__product_ProductTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductType] AS [p]
+        WHERE [p].[Id] = @__product_ProductTypeId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-09 12:14:52.894 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__departmentId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DeptName]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @__departmentId_Value_0
+2025-10-09 12:14:52.924 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__prefixPattern_0_startswith='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode]
+FROM [Product] AS [p]
+WHERE [p].[ProductCode] LIKE @__prefixPattern_0_startswith ESCAPE N'\'
+ORDER BY [p].[ProductCode] DESC
+2025-10-09 12:14:53.126 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([AssignedToId], [CreatedAt], [CreatedById], [CustomerId], [DepartmentId], [Price], [ProductCategoryId], [ProductCode], [ProductDescription], [ProductName], [ProductStatusId], [ProductTypeId], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2025-10-09 12:14:53.165 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'UserManagement.Infrastructure.UMSDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:c8dcd4ab-1af7-4deb-97a5-603dee9565d9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:c8dcd4ab-1af7-4deb-97a5-603dee9565d9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-09 12:17:46.565 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType14`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-09 12:17:46.585 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 202317.7019ms
+2025-10-09 12:17:46.590 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:17:46.620 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 500 null application/json; charset=utf-8 202525.7808ms
+2025-10-09 12:17:47.607 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - null null
+2025-10-09 12:17:47.960 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - 200 null text/html;charset=utf-8 355.3274ms
+2025-10-09 12:17:47.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-09 12:17:47.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - null null
+2025-10-09 12:17:48.023 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 42.2959ms
+2025-10-09 12:17:48.103 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.3292ms
+2025-10-09 12:17:48.323 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - null null
+2025-10-09 12:17:48.382 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.5582ms
+2025-10-09 12:18:10.526 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 352
+2025-10-09 12:18:10.564 +01:00 [INF] CORS policy execution successful.
+2025-10-09 12:18:10.567 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:18:10.574 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 12:18:16.564 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 12:18:33.300 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[@__product_ProductStatusId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductStatus] AS [p]
+WHERE [p].[Id] = @__product_ProductStatusId_0
+2025-10-09 12:18:40.684 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[@__product_ProductTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductType] AS [p]
+        WHERE [p].[Id] = @__product_ProductTypeId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-09 12:19:26.422 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[@__departmentId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DeptName]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @__departmentId_Value_0
+2025-10-09 12:19:35.948 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[@__prefixPattern_0_startswith='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode]
+FROM [Product] AS [p]
+WHERE [p].[ProductCode] LIKE @__prefixPattern_0_startswith ESCAPE N'\'
+ORDER BY [p].[ProductCode] DESC
+2025-10-09 12:22:14.523 +01:00 [INF] Executed DbCommand (45ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([AssignedToId], [CreatedAt], [CreatedById], [CustomerId], [DepartmentId], [Price], [ProductCategoryId], [ProductCode], [ProductDescription], [ProductName], [ProductStatusId], [ProductTypeId], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2025-10-09 12:22:14.532 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'UserManagement.Infrastructure.UMSDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:c8dcd4ab-1af7-4deb-97a5-603dee9565d9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Product_Customer_CustomerId". The conflict occurred in database "UMSDB", table "dbo.Customer", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:c8dcd4ab-1af7-4deb-97a5-603dee9565d9
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-10-09 12:24:35.003 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType14`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-09 12:24:35.007 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 384428.8151ms
+2025-10-09 12:24:35.009 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:24:35.011 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 500 null application/json; charset=utf-8 384484.7336ms
+2025-10-09 12:26:07.462 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 12:26:07.774 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 12:26:07.777 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 12:26:07.994 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 12:26:07.996 +01:00 [INF] Hosting environment: Development
+2025-10-09 12:26:07.998 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 12:26:10.922 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 352
+2025-10-09 12:26:10.978 +01:00 [INF] CORS policy execution successful.
+2025-10-09 12:26:11.064 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 12:26:11.096 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 12:26:20.019 +01:00 [INF] Executed DbCommand (45ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 15:00:49.444 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-09 15:00:50.173 +01:00 [INF] Now listening on: https://localhost:7153
+2025-10-09 15:00:50.176 +01:00 [INF] Now listening on: http://localhost:5164
+2025-10-09 15:00:50.649 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-09 15:00:50.653 +01:00 [INF] Hosting environment: Development
+2025-10-09 15:00:50.657 +01:00 [INF] Content root path: C:\Users\HP\source\repos\CMS1\CMS1
+2025-10-09 15:00:51.540 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 352
+2025-10-09 15:00:51.631 +01:00 [INF] CORS policy execution successful.
+2025-10-09 15:00:51.811 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 15:00:51.870 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 15:01:03.580 +01:00 [INF] Executed DbCommand (56ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 15:01:07.600 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[@__product_ProductStatusId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductStatus] AS [p]
+WHERE [p].[Id] = @__product_ProductStatusId_0
+2025-10-09 15:01:07.638 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__product_ProductTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductType] AS [p]
+        WHERE [p].[Id] = @__product_ProductTypeId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-09 15:01:07.662 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__departmentId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DeptName]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @__departmentId_Value_0
+2025-10-09 15:01:07.692 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__prefixPattern_0_startswith='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode]
+FROM [Product] AS [p]
+WHERE [p].[ProductCode] LIKE @__prefixPattern_0_startswith ESCAPE N'\'
+ORDER BY [p].[ProductCode] DESC
+2025-10-09 15:01:07.904 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([AssignedToId], [CreatedAt], [CreatedById], [CustomerId], [DepartmentId], [Price], [ProductCategoryId], [ProductCode], [ProductDescription], [ProductName], [ProductStatusId], [ProductTypeId], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2025-10-09 15:01:11.340 +01:00 [INF] Executing OkObjectResult, writing value of type 'UserManagement.Application.DTO.ProductDto.ProductResponseDto'.
+2025-10-09 15:01:11.357 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 19472.7666ms
+2025-10-09 15:01:11.361 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 15:01:11.376 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 200 null application/json; charset=utf-8 19843.3744ms
+2025-10-09 15:06:43.042 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Product - application/json 335
+2025-10-09 15:06:43.083 +01:00 [INF] CORS policy execution successful.
+2025-10-09 15:06:43.090 +01:00 [INF] Executing endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 15:06:43.097 +01:00 [INF] Route matched with {action = "CreateBody", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateBody(UserManagement.Application.DTO.ProductDto.CreateProduct) on controller UserManagement.Presentation.Controllers.ProductController (UserManagement).
+2025-10-09 15:06:52.775 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@__product_ProductCategoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductCategory] AS [p]
+WHERE [p].[Id] = @__product_ProductCategoryId_0
+2025-10-09 15:06:52.793 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__product_ProductStatusId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name]
+FROM [ProductStatus] AS [p]
+WHERE [p].[Id] = @__product_ProductStatusId_0
+2025-10-09 15:06:52.811 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__product_ProductTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ProductType] AS [p]
+        WHERE [p].[Id] = @__product_ProductTypeId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-10-09 15:06:52.829 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__departmentId_Value_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DeptName]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @__departmentId_Value_0
+2025-10-09 15:06:52.867 +01:00 [INF] Executed DbCommand (24ms) [Parameters=[@__prefixPattern_0_startswith='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode]
+FROM [Product] AS [p]
+WHERE [p].[ProductCode] LIKE @__prefixPattern_0_startswith ESCAPE N'\'
+ORDER BY [p].[ProductCode] DESC
+2025-10-09 15:06:52.904 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([AssignedToId], [CreatedAt], [CreatedById], [CustomerId], [DepartmentId], [Price], [ProductCategoryId], [ProductCode], [ProductDescription], [ProductName], [ProductStatusId], [ProductTypeId], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+2025-10-09 15:06:56.120 +01:00 [INF] Executing OkObjectResult, writing value of type 'UserManagement.Application.DTO.ProductDto.ProductResponseDto'.
+2025-10-09 15:06:56.148 +01:00 [INF] Executed action UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement) in 13041.4585ms
+2025-10-09 15:06:56.163 +01:00 [INF] Executed endpoint 'UserManagement.Presentation.Controllers.ProductController.CreateBody (UserManagement)'
+2025-10-09 15:06:56.175 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Product - 200 null application/json; charset=utf-8 13134.339ms

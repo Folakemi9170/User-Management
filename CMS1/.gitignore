@@ -1,0 +1,10 @@
+bin/
+obj/
+appsettings*.json
+*.http
+.vs/
+*.user
+*suo
+*.cache
+.env
+*.log
