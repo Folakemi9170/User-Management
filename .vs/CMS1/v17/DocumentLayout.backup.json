@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\CMS1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\middleware\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\middleware\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\utility\\availabilitymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\utility\\availabilitymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\presentation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\presentation\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\userdto\\userloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\userdto\\userloginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\userdto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\userdto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\middleware\\haspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\middleware\\haspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\domain\\entities\\product\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\domain\\entities\\product\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\domain\\entities\\product\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\domain\\entities\\product\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\domain\\entities\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\domain\\entities\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\userdto\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\userdto\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\userdto\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\userdto\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\userdto\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\userdto\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\roles\\createroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\roles\\createroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\employeedto\\partialupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\employeedto\\partialupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|c:\\users\\hp\\desktop\\cms1\\cms1\\application\\dto\\roles\\updaterole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27436DE-F47E-439F-976F-40AF52A49D2C}|CMS1\\UserManagement.csproj|solutionrelative:cms1\\application\\dto\\roles\\updaterole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "CMS1\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "CMS1\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:31:51.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Middleware\\ValidationException.cs",
+              "RelativeDocumentMoniker": "CMS1\\Middleware\\ValidationException.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Middleware\\ValidationException.cs",
+              "RelativeToolTip": "CMS1\\Middleware\\ValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:31:40.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AvailabilityMessage.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Utility\\AvailabilityMessage.cs",
+              "RelativeDocumentMoniker": "CMS1\\Utility\\AvailabilityMessage.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Utility\\AvailabilityMessage.cs",
+              "RelativeToolTip": "CMS1\\Utility\\AvailabilityMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:18:03.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CMS1\\Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CMS1\\Presentation\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:20:22.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Domain\\Entities\\Product\\Products.cs",
+              "RelativeDocumentMoniker": "CMS1\\Domain\\Entities\\Product\\Products.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Domain\\Entities\\Product\\Products.cs",
+              "RelativeToolTip": "CMS1\\Domain\\Entities\\Product\\Products.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:47:02.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Domain\\Entities\\Employees.cs",
+              "RelativeDocumentMoniker": "CMS1\\Domain\\Entities\\Employees.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Domain\\Entities\\Employees.cs",
+              "RelativeToolTip": "CMS1\\Domain\\Entities\\Employees.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wBQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:41:46.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "CMS1\\Application\\Services\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwDIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:21:43.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CMS1\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "CMS1\\Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:27:59.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Presentation\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CMS1\\Presentation\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Presentation\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CMS1\\Presentation\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwDkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T14:31:23.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductStatus.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Domain\\Entities\\Product\\ProductStatus.cs",
+              "RelativeDocumentMoniker": "CMS1\\Domain\\Entities\\Product\\ProductStatus.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Domain\\Entities\\Product\\ProductStatus.cs",
+              "RelativeToolTip": "CMS1\\Domain\\Entities\\Product\\ProductStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:47:30.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserLoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\UserLoginResponse.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\UserDto\\UserLoginResponse.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\UserLoginResponse.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\UserDto\\UserLoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:55:39.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HasPermissionAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Middleware\\HasPermissionAttribute.cs",
+              "RelativeDocumentMoniker": "CMS1\\Middleware\\HasPermissionAttribute.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Middleware\\HasPermissionAttribute.cs",
+              "RelativeToolTip": "CMS1\\Middleware\\HasPermissionAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T14:16:45.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CMS1\\Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CMS1\\Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T10:40:07.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\UserDto\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\UserLoginDto.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\UserDto\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:42:55.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\CreateUserResponse.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\UserDto\\CreateUserResponse.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\CreateUserResponse.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\UserDto\\CreateUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:34:46.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\UserDto\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\CreateUserDto.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\UserDto\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:39:25.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\UserDto\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\UpdateUserDto.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\UserDto\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:39:55.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "JWT.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\JWT.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\UserDto\\JWT.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\UserDto\\JWT.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\UserDto\\JWT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:39:51.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\Services\\PermissionService.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\Services\\PermissionService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\Services\\PermissionService.cs",
+              "RelativeToolTip": "CMS1\\Application\\Services\\PermissionService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T14:05:40.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\Roles\\CreateRoleDto.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\Roles\\CreateRoleDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\Roles\\CreateRoleDto.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\Roles\\CreateRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T10:28:11.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "CMS1\\Application\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T14:05:37.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PartialUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\EmployeeDto\\PartialUpdate.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\EmployeeDto\\PartialUpdate.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\EmployeeDto\\PartialUpdate.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\EmployeeDto\\PartialUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T14:05:29.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\Services\\RoleService.cs",
+              "RelativeToolTip": "CMS1\\Application\\Services\\RoleService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T10:32:11.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateRole.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\Roles\\UpdateRole.cs",
+              "RelativeDocumentMoniker": "CMS1\\Application\\DTO\\Roles\\UpdateRole.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\CMS1\\CMS1\\Application\\DTO\\Roles\\UpdateRole.cs",
+              "RelativeToolTip": "CMS1\\Application\\DTO\\Roles\\UpdateRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T11:49:39.448Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
